@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background: hsla(205, 46%, 10%, 1);
+
+background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+}
+
+.navbar{
+    background: hsla(197, 14%, 57%, 1);
+
+background: linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+font-family: "Roboto Mono", monospace;
+}
+
+
+#webhub{
+    background: -webkit-linear-gradient(#2facff, #02090a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight: bold;
+font-size: 35px;
+}
+
+#main-webhub{
+    background: -webkit-linear-gradient(#0199ff, #594bd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.text-center{
+    color: antiquewhite;
+    font-family: "Roboto Mono", monospace;
+}
+
+#collection-p{
+    text-align: center;
+    color: #eee;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Roboto Mono", monospace;
+}
+
+#dark-eagle{
+    background: -webkit-linear-gradient(#060d11, #777e80,#030303);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Palanquin Dark", sans-serif;
+}
+
+#jao{
+    
+  text-decoration: none;
+}
+
+#powerd{
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+#comingsoon{
+    font-size: 25px;
+    color: gold;
+}
+
+.card-title{
+    font-size: 25px;
+    color: brown;
+    font-family: "Roboto Mono", monospace;
+}
+
+img{
+    width: 100%;
+    height: 160px;
+}
+
+@media only screen and (max-width: 770px)
+{
+    img{
+        width: 30%;
+        height: 140px;
+    }
+}
