@@ -33,11 +33,13 @@ font-size: 35px;
 }
 
 .text-center{
+    top: 50px;
     color: antiquewhite;
     font-family: "Roboto Mono", monospace;
 }
 
 #collection-p{
+    top: 20px;
     text-align: center;
     color: #eee;
     font-size: 25px;
